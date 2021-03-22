@@ -2,7 +2,7 @@
 
 1	安装环境  
 
-Vmware12.1  
+Vmware16 
 Ubuntu20.04
 
 2	安装步骤
