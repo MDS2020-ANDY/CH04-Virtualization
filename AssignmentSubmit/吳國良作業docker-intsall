@@ -1,0 +1,27 @@
+1、download docker
+
+
+Link：https://desktop.docker.com/mac/m1preview/Docker-AppleSilicon-Preview7.dmg
+
+2、install
+
+3、setting
+
+Open docker desktop
+
+Add code below
+
+"registry-mirrors": [
+    "https://dockerhub.azk8s.cn",
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ],
+
+4、testing
+
+Open terminal, input
+
+docker run -d -p 80:80 docker/getting-started
+
+
+normal use.
